@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My static Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- u (underline): ដាក់បន្ទាត់ពីខាងក្រោមអក្សរ -->
+    <!-- b​​ (bold): ធ្វើអោយអក្សរឌិត -->
+    <!-- i (italic): សម្រាប់ធ្វើអោយអក្សរត្រេត -->
+    <!-- hr: បន្ទាត់line -->
+
+    <!-- html inline: អត់ចុះបន្ទាត់ -->
+    <!-- html block: ចុះបន្ទាត់auto -->
+    <!-- br: សម្រាប់ចុះបន្ទាត់ -->
+
+
+    <!-- attribute: មានតួនាសម្រាប់ផ្តល់ព័ត៌មានទៅអោយtag -->
+    <!-- 1. absolute link: ដាក់រូបភាពតារយlink -->
+    <!-- 2. reference line: ដាក់រូបភាពដែលមានក្នុងfolderស្រាប់ -->
+    <!-- a tag: សម្រាប់ភ្ជាប់linkពីកន្លែងមួយទៅមួយទៀត -->
+    <!-- list: បញ្ជី(order list, unorder list)  -->
+    <!-- style: សម្រាប់ភ្ជាប់ទៅកាន់css -->
+    <!-- color: សម្រាប់ប្តូរពណ៌អក្សរ -->
+
+    <!-- header -->
+    <h1><u>Welcome to My Statci Website</u></h1>
+    <p>Hello everbody!</p>
+    <p>My name is <i><u><b>Leat Bros</b></u></i> and I'm <i>12</i> years old</p>
+    <hr>
+
+    <!-- Image -->
+    <img width="200px" src="./image.webp">
+    <p>My link <a href="./image.webp">Photo</a> </p>
+
+    <!-- About Me -->
+    <h3 style="color:red;">
+        <i class="fa-solid fa-user"></i>
+        <u>About Me</u>
+    </h3>
+    <p>
+        <b>Name:</b> Leat Bros <br>
+        <b>Age:</b> 12 years old <br>
+        <b>Address:</b> Siem Reap <br>
+        <b>Number:</b> 044472346263
+    </p>
+    <hr>
+
+    <!-- Expernce -->
+    <h3 style="color:red;">
+        <i class="fa-solid fa-file"></i>
+        <u>Experiend</u>
+    </h3>
+    <ol>
+        <!-- list -->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Bootstrap</li>
+    </ol>
+
+    <h3 style="color:red;">
+        <i class="fa-solid fa-file"></i>
+        <u>What can I do</u>
+    </h3>
+    <ul>
+        <li>React js</li>
+        <li>Vue</li>
+        <li>Node js</li>
+        <li>Express js</li>
+    </ul>
+    <hr>
+
+    <!-- shift + alt + arrow down: copy -->
+    <!-- border: សម្រាប់កំណត់border -->
+    <!-- cellspacing: សម្រាប់ដកគន្លាត់ចន្លោះនៃborder -->
+    <!-- cellpadding: សម្រាប់កំណត់គម្លាតពីborderទៅអក្សរ -->
+    <!-- background-color: សម្រាប់ចាក់ផ្ទៃខាងក្រោយ -->
+    <!-- color: សម្រាប់ចាក់ពណ៌ទៅអោយអក្សរ -->
+    <!-- text-align: សម្រាប់តម្រឹមអក្សរដែលវាមានតម្លៃ3(left, center, right) -->
+
+
+    <!-- My-Friend -->
+    <h3 style="color:red;">
+        <i class="fa-solid fa-user-group"></i>
+        <u>My Friends</u>
+    </h3>
+    <table border="1" cellspacing="0" cellpadding="10px" style="width:330px;">
+        <!-- table-row -->
+        <tr style="background-color: gray; color:white;">
+            <!-- table-header -->
+            <th>N0</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <!-- table-data -->
+            <!-- text-align: (left, center, right) -->
+            <td rowspan="3" style="text-align:center;">1</td>
+            <td>Leat Bros</td>
+            <td style="text-align: center;">12</td>
+            <td>Siem Reap</td>
+        </tr>
+        <tr>
+            <!-- table-data -->
+            <td>Leat Bros</td>
+            <td style="text-align: center;">12</td>
+            <td>Siem Reap</td>
+        </tr>
+        <tr>
+            <!-- table-data -->
+            <td>Leat Bros</td>
+            <td style="text-align: center;">12</td>
+            <td>Siem Reap</td>
+        </tr>
+        <tr>
+            <!-- table-data -->
+            <td style="text-align: center;">4</td>
+            <td>Leat Bros</td>
+            <td style="text-align: center;">12</td>
+            <td>Siem Reap</td>
+        </tr>
+        <tr>
+            <!-- table-data -->
+            <td colspan="4" style="text-align: center;">5</td>
+        </tr>
+    </table>
+
+    <!-- Register -->
+    <!-- label: សម្រាប់ដាក់អក្សរបញ្ជាក់ទៅកាន់user -->
+    <!-- input: សម្រាប់អោយចញ្ចូលព័ត៌មាន -->
+    <!-- div: សម្រាប់បែកចែកដូចមួយផ្នែកៗផ្សេងៗគ្នា -->
+    <h3 style="color:red;">
+        <i class="fa-solid fa-address-book"></i>
+        <u>Register</u>
+    </h3>
+    <form>
+        <!-- fieldset: សម្រាប់ដាក់border -->
+        <fieldset style="width: 177px;">
+            <!-- legend: សម្រាប់ដាក់អក្សរ -->
+            <legend>Register</legend>
+            <!-- name -->
+            <div>
+                <label>Name</label> <br>
+                <input type="text" placeholder="Enter name">
+            </div>
+            <br>
+
+            <!-- email -->
+            <div>
+                <label>Email</label> <br>
+                <input type="email" placeholder="Enter email">
+            </div>
+            <br>
+
+            <!-- number -->
+            <div>
+                <label>Number</label> <br>
+                <!-- ctrl + cpace -->
+                <input type="number" placeholder="Enter number">
+            </div>
+            <br>
+
+            <!-- gender -->
+            <div>
+                <label>Gender</label> <br>
+
+                <input name="gender" type="radio">
+                <label>Male</label> <br>
+
+                <input name="gender" type="radio">
+                <label>Female</label>
+            </div>
+            <br>
+
+            <!-- course -->
+            <div>
+                <label>Course</label> <br>
+
+                <input type="checkbox">
+                <label for="">Phototshop</label> <br>
+
+                <input type="checkbox">
+                <label for="">Web Design</label> <br>
+
+                <input type="checkbox">
+                <label for="">Web Design</label> <br>
+
+                <input type="checkbox">
+                <label for="">Web Design</label> <br>
+            </div>
+            <br>
+
+            <!-- Addrss -->
+            <div>
+                <label>Addres</label> <br>
+                <select>
+                    <option disabled value="">--Choose--</option>
+                    <option value="Siem Reap">Siem Reap</option>
+                    <option value="Battambang">Battambang</option>
+                    <option value="Phnom Penh">Phnom Penh</option>
+                    <option value="Siem Reap">Siem Reap</option>
+                    <option value="Siem Reap">Siem Reap</option>
+                    <option value="Siem Reap">Siem Reap</option>
+                </select>
+            </div>
+            <br>
+
+            <!-- Other -->
+            <div>
+                <label>Other</label> <br>
+                <textarea style="height:60px;" placeholder="Inter Your Message"></textarea>
+            </div>
+            <br>
+
+            <!-- Submit -->
+            <div>
+                <button type="button">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- Footer -->
+    <p style="text-align: center;">Bros</p>
+</body>
+
+</html>
